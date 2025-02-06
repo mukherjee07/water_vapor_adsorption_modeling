@@ -5,6 +5,7 @@
 
 ## All data is provided along with visualization codes in the folders ##
 Example --- For electrostatic potential analysis, i) Calculate the potential using ewald_potential.py, and ii) plot the potential_data using the visualization code provided there.
+
 Also, please look at repo_structure.txt for folder-file structure tree
 
 NOTE: In energy analysis, files with extension _Ads.csv are for adsorbate-adsorbate potential energy while files with _E.csv extension are the host-adsorbate energies
