@@ -1,0 +1,247 @@
+.
+├── README.md
+├── adsorption_data
+│   ├── 10.78A
+│   │   ├── desorption_q_0.7830
+│   │   │   ├── AA.csv
+│   │   │   ├── AAR.csv
+│   │   │   ├── AR.csv
+│   │   │   ├── Inner.csv
+│   │   │   ├── Outer.csv
+│   │   │   ├── Visualize_Isotherm.ipynb
+│   │   │   └── files.zip
+│   │   ├── q_0.3915
+│   │   │   ├── AA.csv
+│   │   │   ├── AAR.csv
+│   │   │   ├── AR.csv
+│   │   │   ├── Inner.csv
+│   │   │   ├── Outer.csv
+│   │   │   └── Visualize_Isotherm.ipynb
+│   │   ├── q_0.7830
+│   │   │   ├── AA.csv
+│   │   │   ├── AAR.csv
+│   │   │   ├── AR.csv
+│   │   │   ├── Inner.csv
+│   │   │   ├── Outer.csv
+│   │   │   └── Visualize_Isotherm.ipynb
+│   │   └── q_1.1730
+│   │       ├── AA.csv
+│   │       ├── AAR.csv
+│   │       ├── AR.csv
+│   │       ├── Inner.csv
+│   │       ├── Outer.csv
+│   │       └── Visualize_Isotherm.ipynb
+│   ├── 11.76A
+│   │   ├── q_0.3915
+│   │   │   ├── AA.csv
+│   │   │   ├── AAR.csv
+│   │   │   ├── AR.csv
+│   │   │   ├── Inner.csv
+│   │   │   ├── Outer.csv
+│   │   │   └── Visualize_Isotherm.ipynb
+│   │   ├── q_0.7830
+│   │   │   ├── AA.csv
+│   │   │   ├── AAR.csv
+│   │   │   ├── AR.csv
+│   │   │   ├── Inner.csv
+│   │   │   ├── Outer.csv
+│   │   │   ├── Run_2
+│   │   │   │   ├── AA.csv
+│   │   │   │   ├── AAR.csv
+│   │   │   │   ├── AR.csv
+│   │   │   │   ├── Inner.csv
+│   │   │   │   ├── Outer.csv
+│   │   │   │   └── Visualize_Isotherm.ipynb
+│   │   │   └── Visualize_Isotherm.ipynb
+│   │   └── q_1.1730
+│   │       ├── AA.csv
+│   │       ├── AAR.csv
+│   │       ├── AR.csv
+│   │       ├── Inner.csv
+│   │       ├── Outer.csv
+│   │       └── Visualize_Isotherm.ipynb
+│   ├── 12.74A
+│   │   └── q_0.7830
+│   │       ├── AA.csv
+│   │       ├── AAR.csv
+│   │       ├── AR.csv
+│   │       ├── Inner.csv
+│   │       ├── Outer.csv
+│   │       └── Visualize_Isotherm.ipynb
+│   └── tip4p_2005
+│       └── 11.76A
+│           ├── q_0.7830
+│           │   ├── AA.csv
+│           │   ├── AAR.csv
+│           │   ├── AR.csv
+│           │   ├── Inner.csv
+│           │   ├── Outer.csv
+│           │   └── Visualize_Isotherm.ipynb
+│           └── q_1.1745
+│               ├── AA.csv
+│               ├── AAR.csv
+│               ├── AR.csv
+│               ├── Inner.csv
+│               ├── Outer.csv
+│               └── Visualize_Isotherm.ipynb
+├── creating_the_ICCs
+│   ├── header.cif
+│   └── test_cylinder_generator.py
+├── electrostatic_potential_analysis
+│   └── 8.26_2q
+│       ├── AA
+│       │   ├── IC_24_AA.cif
+│       │   └── potential_data.csv
+│       ├── AAR
+│       │   ├── IC_24_AAR.cif
+│       │   └── potential_data.csv
+│       ├── AR
+│       │   ├── IC_24_AR.cif
+│       │   └── potential_data.csv
+│       ├── Inner
+│       │   ├── IC_24_Inner.cif
+│       │   └── potential_data.csv
+│       ├── Outer
+│       │   ├── IC_24_Outer.cif
+│       │   ├── Potential_visualize.ipynb
+│       │   └── potential_data.csv
+│       ├── Potential_visualize.ipynb
+│       ├── ewald_potential.py
+│       └── panel_heatmap_alternate_layer.png
+├── energy_analysis
+│   └── 11.76A
+│       ├── q_0.3915
+│       │   ├── AAR_Ads.csv
+│       │   ├── AAR_E.csv
+│       │   ├── AA_Ads.csv
+│       │   ├── AA_E.csv
+│       │   ├── AR_Ads.csv
+│       │   ├── AR_E.csv
+│       │   ├── Energy_visualizer.ipynb
+│       │   ├── Inner_Ads.csv
+│       │   ├── Inner_E.csv
+│       │   ├── Outer_Ads.csv
+│       │   ├── Outer_E.csv
+│       │   └── data_files.zip
+│       ├── q_0.7830
+│       │   ├── AAR_Ads.csv
+│       │   ├── AAR_E.csv
+│       │   ├── AA_Ads.csv
+│       │   ├── AA_E.csv
+│       │   ├── AR_Ads.csv
+│       │   ├── AR_E.csv
+│       │   ├── Energy_visualizer.ipynb
+│       │   ├── Inner_Ads.csv
+│       │   ├── Inner_E.csv
+│       │   ├── Outer_Ads.csv
+│       │   └── Outer_E.csv
+│       └── q_1.1745
+│           ├── AAR_Ads.csv
+│           ├── AAR_E.csv
+│           ├── AA_Ads.csv
+│           ├── AA_E.csv
+│           ├── AR_Ads.csv
+│           ├── AR_E.csv
+│           ├── Energy_visualizer.ipynb
+│           ├── Inner_Ads.csv
+│           ├── Inner_E.csv
+│           ├── Outer_Ads.csv
+│           ├── Outer_E.csv
+│           └── data_files.zip
+├── repo_structure.txt
+├── simulation_input
+│   └── readme.txt
+├── structures
+│   ├── IC_24_AA.block
+│   ├── IC_24_AA.cif
+│   ├── IC_24_AAR.block
+│   ├── IC_24_AAR.cif
+│   ├── IC_24_AR.block
+│   ├── IC_24_AR.cif
+│   ├── IC_24_Inner.block
+│   ├── IC_24_Inner.cif
+│   ├── IC_24_Outer.block
+│   ├── IC_24_Outer.cif
+│   ├── IC_26_AA.block
+│   ├── IC_26_AA.cif
+│   ├── IC_26_AAR.block
+│   ├── IC_26_AAR.cif
+│   ├── IC_26_AR.block
+│   ├── IC_26_AR.cif
+│   ├── IC_26_Inner.block
+│   ├── IC_26_Inner.cif
+│   ├── IC_26_Outer.block
+│   ├── IC_26_Outer.cif
+│   └── readme.txt
+└── water_structure_analysis
+    ├── 10.78A
+    │   ├── AA
+    │   │   ├── combined_structure.xyz
+    │   │   └── water_adsorbate.txt
+    │   ├── AAR
+    │   │   ├── combined_structure.xyz
+    │   │   ├── restart_IC_22_AAR_1.1.1_300.000000_4157
+    │   │   └── water_adsorbate.txt
+    │   ├── AR
+    │   │   ├── combined_structure.xyz
+    │   │   ├── restart_IC_22_AR_1.1.1_300.000000_4157
+    │   │   └── water_adsorbate.txt
+    │   ├── Inner
+    │   │   ├── combined_structure.xyz
+    │   │   ├── restart_IC_22_Inner_1.1.1_300.000000_4157
+    │   │   ├── water_adsorbate.txt
+    │   │   └── water_positions.xyz
+    │   ├── No_charge
+    │   │   ├── No_charge
+    │   │   │   ├── FrameworkAtoms.vtk
+    │   │   │   ├── IC_22_NC.cif
+    │   │   │   ├── combined_structure.xyz
+    │   │   │   ├── combined_water_adsorbent.py
+    │   │   │   └── restart_IC_22_AA_1.1.1_300.000000_4157
+    │   │   ├── combined_structure.xyz
+    │   │   └── restart_IC_22_AA_1.1.1_300.000000_4157
+    │   ├── Outer
+    │   │   ├── combined_structure.xyz
+    │   │   ├── restart_IC_22_Outer_1.1.1_300.000000_4157
+    │   │   └── water_adsorbate.txt
+    │   ├── liquid_100kPa
+    │   │   └── combined_structure.xyz
+    │   └── water_structure_analysis.ipynb
+    ├── 11.76A
+    │   ├── AA
+    │   │   └── combined_structure.xyz
+    │   ├── AAR
+    │   │   └── combined_structure.xyz
+    │   ├── AR
+    │   │   └── combined_structure.xyz
+    │   ├── Inner
+    │   │   └── combined_structure.xyz
+    │   ├── No_Charge
+    │   │   └── combined_structure.xyz
+    │   ├── Outer
+    │   │   └── combined_structure.xyz
+    │   ├── liquid_100kPa
+    │   │   └── combined_structure.xyz
+    │   ├── readme.txt
+    │   └── water_structure_analysis.ipynb
+    ├── 12.74A
+    │   ├── AA
+    │   │   └── combined_structure.xyz
+    │   ├── AAR
+    │   │   └── combined_structure.xyz
+    │   ├── AR
+    │   │   └── combined_structure.xyz
+    │   ├── Inner
+    │   │   └── combined_structure.xyz
+    │   ├── No_charge
+    │   │   └── combined_structure.xyz
+    │   ├── Outer
+    │   │   └── combined_structure.xyz
+    │   ├── liquid_100kPa
+    │   │   └── combined_structure.xyz
+    │   ├── readme.txt
+    │   └── water_structure_analysis.ipynb
+    └── Readme.txt
+
+tree -I '.git' > repo_structure.txt
+58 directories, 185 files
