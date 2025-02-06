@@ -7,9 +7,9 @@
 Example --- For electrostatic potential analysis, i) Calculate the potential using ewald_potential.py, and ii) plot the potential_data using the visualization code provided there.
 Also, please look at repo_structure.txt for folder-file structure tree (example below for adsorption_data/10.78A/desorption_q_0.7830/):
 .
-├── README.md
-├── adsorption_data
-│   ├── 10.78A
+├── README.md \
+├── adsorption_data \
+│   ├── 10.78A              \
 │   │   ├── desorption_q_0.7830
 │   │   │   ├── AA.csv
 │   │   │   ├── AAR.csv
