@@ -236,7 +236,7 @@ def main(cif_file, output_file, cylindrical_diameter, starting_z, z_delta, z_lay
 if __name__ == "__main__":
     CIF_FILE = "AR/IC_24_AA.cif"
     OUTPUT_FILE = "potential_data.csv"
-    PROBE_LENGTH = 16
+    SLICE_LENGTH = 16
     STARTING_Z = 0.55
     Z_DELTA = 0.11
     Z_LAYERS = 20
@@ -257,5 +257,5 @@ if __name__ == "__main__":
 
     r_cut = 14.0  # Example real-space cutoff in Å
 
-    main(CIF_FILE, OUTPUT_FILE, PROBE_LENGTH, STARTING_Z, Z_DELTA, Z_LAYERS, k_vectors, r_cut)
+    main(CIF_FILE, OUTPUT_FILE, SLICE_LENGTH, STARTING_Z, Z_DELTA, Z_LAYERS, k_vectors, r_cut)
 
